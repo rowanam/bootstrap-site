@@ -167,6 +167,28 @@ body {
     border-color: #df4929;
 }
 
+/* QUOTES SECTION */
+
+.quotes-media {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.quotes-media img {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+    .quotes-media {
+        flex-direction: row;
+        text-align: left;
+        align-items: flex-start;
+    }
+}
+
+/* FEATURES SECTION */
+
 .feature {
     text-align: center;
     margin-bottom: 40px;
@@ -187,6 +209,8 @@ body {
     margin-top: 10px;
     color: #f05f40;
 }
+
+/* FAVORITES SECTION */
 
 .favorites-container .table {
     background-color: #f05f40;
