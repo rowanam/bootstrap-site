@@ -187,3 +187,8 @@ body {
     margin-top: 10px;
     color: #f05f40;
 }
+
+.favorites-container .table {
+    background-color: #f05f40;
+    color: white;
+}
